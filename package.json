@@ -1,0 +1,16 @@
+{
+    "name": "asistente",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node server/server.js",
+        "backend": "python backend/app.py",
+        "frontend": "npm start --prefix frontend"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "flask": "^0.2.10",
+        "http-proxy-middleware": "^1.0.6",
+        "routes": "^2.1.0"
+    }
+}
