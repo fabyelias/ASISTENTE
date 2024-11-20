@@ -12,4 +12,4 @@ app.register_blueprint(auth, url_prefix='/api/auth')
 app.register_blueprint(google, url_prefix='/api/google')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)  
