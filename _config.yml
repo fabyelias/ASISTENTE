@@ -36,6 +36,7 @@ exclude:
   - config.py
   - models/
   - routes/
+  - frontend/node_modules
 
 # Incluye archivos y carpetas
 include:
