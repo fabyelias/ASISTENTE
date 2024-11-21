@@ -42,7 +42,8 @@ exclude:
 include:
   - _pages
   - frontend/src
-
+  - backend/
+  
 # Configuración de la colección
 collections:
   my_collection:
