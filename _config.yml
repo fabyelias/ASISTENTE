@@ -23,3 +23,34 @@ plugins:
 # Paginación
 paginate: 5
 paginate_path: "/page:num/"
+
+# Excluir archivos y carpetas
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - README.md
+  - LICENSE
+  - app.py
+  - config.py
+  - models/
+  - routes/
+
+# Incluye archivos y carpetas
+include:
+  - _pages
+  - frontend/public
+
+# Configuración de la colección
+collections:
+  my_collection:
+    output: true
+
+# Configuración de la fuente
+sass:
+  style: compressed
+
+# Configuración de la URL de GitHub
+github:
+  is_project_page: true
