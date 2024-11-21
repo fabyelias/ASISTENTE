@@ -41,7 +41,7 @@ exclude:
 # Incluye archivos y carpetas
 include:
   - _pages
-  - frontend/public
+  - frontend/public/index.html
 
 # Configuración de la colección
 collections:
