@@ -1,0 +1,58 @@
+# Archivo: _config.yml
+
+# Información del sitio
+title: "ASISTENTE"
+description: "Descripción de tu proyecto ASISTENTE"
+baseurl: "" # La URL base del sitio, por ejemplo, /blog
+url: "https://tu_usuario.github.io/ASISTENTE" # La URL completa del sitio
+
+# Configuración de GitHub Pages
+theme: jekyll-theme-primer
+
+# Configuración de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-github-metadata
+
+# Paginación
+paginate: 5
+paginate_path: "/page:num/"
+
+# Excluir archivos y carpetas
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - README.md
+  - LICENSE
+  - app.py
+  - config.py
+  - models/
+  - routes/
+
+# Incluye archivos y carpetas
+include:
+  - _pages
+
+# Configuración de la colección
+collections:
+  my_collection:
+    output: true
+
+# Configuración de la fuente
+sass:
+  style: compressed
+
+# Configuración de la URL de GitHub
+github:
+  is_project_page: true
