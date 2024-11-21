@@ -41,7 +41,7 @@ exclude:
 # Incluye archivos y carpetas
 include:
   - _pages
-  - frontend/public/index.html
+  - frontend/public
 
 # Configuración de la colección
 collections:
@@ -55,3 +55,4 @@ sass:
 # Configuración de la URL de GitHub
 github:
   is_project_page: true
+  
