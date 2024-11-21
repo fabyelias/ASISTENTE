@@ -32,16 +32,16 @@ exclude:
   - .github
   - README.md
   - LICENSE
-  - app.py
-  - config.py
-  - models/
-  - routes/
+  - server/
+  - package.json
+  - package-lock.json
+  - vercel.json
   - frontend/node_modules
 
 # Incluye archivos y carpetas
 include:
   - _pages
-  - frontend/public
+  - frontend/src
 
 # Configuración de la colección
 collections:
@@ -55,4 +55,3 @@ sass:
 # Configuración de la URL de GitHub
 github:
   is_project_page: true
-  
